@@ -1,0 +1,12 @@
+1. What is a multi-dimensional array, and how is it different from a simple array?
+A multi-dimensional array is a kind of array that stores data in rows, columns, and layers. A simple array simply stores data in one straight line.
+
+2. How are multidimensional arrays using Python lists (from CodeSignal) different from those created with NumPy (from AskPython)?
+What are the advantages and limitations of each?
+Python lists are built into Python, simple to understand, and are able to store different data types. However, it's not recommended for large datasets, cannot utilize built in mathematical options, uses up more memory, and looping is manual for calculations.
+NumPy arrays are faster, uses up less memory, and are built for numerical computing. However, isn't built in, usually stores only one data type, and more difficult to understand.
+
+3. What is the importance of row and column indices in accessing elements in a 2D or 3D array?
+How does this concept apply to organizing real-life data?
+The importance of row and column indices lies in pinpointing the exaxt location of a certain element in Python. You're able to access, change, and evaluate data more accurately.
+In real life, this is similar to spreadsheets. They have the same goal, to organize data, making them easy to access, change, and evaluate.
