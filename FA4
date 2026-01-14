@@ -1,0 +1,23 @@
+names = ["Me", "Lia", "Jake"]
+
+steps = [
+    [4500, 5200, 4800, 5000, 5300],
+    [4000, 4100, 3900, 4200, 4600],
+    [6000, 5800, 5900, 6100, 6200]
+]
+
+totales = []
+
+for person_steps in steps:
+    total = sum(person_steps)
+    totales.append(total)
+    
+hi = max(totales)
+low = min(totales)
+
+index = totales.index(hi)
+tp = names[index]
+
+print(names)
+print("Total steps list:", totales)
+print(tp, "had the highest steps")
