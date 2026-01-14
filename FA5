@@ -1,0 +1,26 @@
+names = ["Me", "Lia", "Jake"]
+  
+steps = [
+  [4500, 5200, 4800, 5000, 5300],  
+  [4000, 4100, 3900, 4200, 4600],  
+  [6000, 5800, 5900, 6100, 6200]  
+]
+
+day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+totales = []
+
+for day_index in range(len(steps[0])):
+    total = 0
+    for person_index in range(len(steps)):
+        total += steps[person_index][day_index]
+    totales.append(total)
+    
+for i in range(len(day)):
+    print(day[i], ":", totales[i])
+
+
+max_steps = max(totales)
+max_index = totales.index(max_steps)
+
+print("\nMost active day:", day[max_index], "with", max_steps, "steps")
