@@ -26,3 +26,8 @@ for row in steps:
       maximum = value
 
 print("Maximum value in dataset:", maximum)
+
+# Using a 2D array helps organize data into rows and columns reminiscent of an Excel spreadsheet.
+# Makes it easier to compute totals and averages.
+# Finding the maximum value is much more simple through the ability to check each value in the array.
+# Arrays help summarize data clearly and efficiently.
